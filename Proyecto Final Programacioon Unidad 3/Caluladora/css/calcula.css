@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(135deg,#9a9574,#9fa463,#89a149,#88942b,#a1a315,
+    #9c9818,#8ea308);
+    background-size: 500%;
+    animation: fanimado 15s infinite;
+}
+
+@keyframes fanimado{
+0%{
+  background-position: 0% 50%;
+}
+50%{
+  background-position: 100% 50%;
+}
+100%{
+  background-position: 0% 50%;
+}
+}
+
+p{
+    color:rgb(255, 255, 255);
+    font-family: cursive;
+}
+
+hr{
+  border-color:rgb(255, 0, 0);
+  border-width: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5PX;
+  border-end-start-radius: 5px;
+  border-end-end-radius: 5px;
+}
+
+h2{
+    color: #540853;
+    font-family: cursive;
+}
+
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora { border: 3px rgb(255, 253, 253) ridge; width: 600px;text-align: center;
+               background-color: #000000; }
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla { width: 500px; border: 2px black solid; text-align: right;
+                 position: relative; left: 30px;  padding: 5px 5px;
+                 background-color: rgb(255, 0, 0); font-family: "courier new";
+                 overflow: hidden;}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { width: 95px; padding: 0;  }
+/*botones especiales*/
+.calculadora input.largo { color:#540853; width: 120px; }

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    }
+
+    video{
+        position: fixed;
+
+        min-width: 100%;
+        min-height: 100%;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translateX(-50%) translateY(-50%);
+
+        z-index: -1;
+    }
+
+
+#menu {
+    background: #1b6d78;
+    padding: 5px 15px;
+    }
+
+    #menu li {
+    display: inline-block;
+    list-style: none; 
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+    }
+
+    #cabecera {
+    background-image: url("http://www.solofondos.com/wp-content/uploads/2016/03/giphy.gif");
+    color: aqua;
+    border: 5px solid #000000;
+    padding: 20px;
+    }
+
+    a{
+        color: red;
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 20%;
+    }
